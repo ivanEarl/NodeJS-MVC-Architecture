@@ -2,12 +2,11 @@ const mysql = require('mysql2/promise');
 
 const dbConfig = {
     host: 'localhost',
-    user: 'root', // Default user for XAMPP MySQL
-    password: '',  // Default password for XAMPP MySQL (empty by default)
-    database: 'todo_db', // Replace with your actual database name
+    user: 'root', 
+    password: '',  
+    database: 'todo_db', 
 };
 
-// Function to get a direct connection to the database
 async function getConnection() {
     try {
         const connection = await mysql.createConnection(dbConfig);
