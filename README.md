@@ -1,1 +1,4 @@
-NodeJS application written in MVC (Model, View, Controller) Architecture
+Programming Language: Javascript
+Framework: Express
+Paradigm: Functional Programming
+Architecture: MVC (Model-View-Controller)
