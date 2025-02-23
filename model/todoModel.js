@@ -10,7 +10,7 @@ const getAllTodos = async () => {
         const [result] = await db.query('SELECT * FROM todos_tbl;');
         return result;
     } catch (err) {
-        console.log('Error(model>getAllTodos): ', err);
+        console.log('Error[model>getAllTodos]: ', err);
         throw err;
     }
 };
